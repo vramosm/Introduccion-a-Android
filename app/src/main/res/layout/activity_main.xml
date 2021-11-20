@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/unamed"/>
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="171dp"
+        android:layout_height="205dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/uni" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del participante"
+        android:layout_margin="5dp"/>
+    <EditText
+        android:id="@+id/surnames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Apellidos del participante"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Edad del participante"
+        android:inputType="number"
+        android:layout_margin="5dp"/>
+
+    <RadioGroup
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Soy Hombre"
+            android:layout_margin="5dp"/>
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Soy Mujer"
+            android:layout_margin="5dp"/>
+    </RadioGroup>
+
+    <Switch
+        android:id="@+id/preview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="He participado en otro concurso"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/competition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del concurso anterior"
+        android:visibility="invisible"/>
+
+
+    <CheckBox
+        android:id="@+id/terms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acepto las condiciones del concurso"
+        android:textSize="12sp"/>
+
+
+    <ImageButton
+        android:id="@+id/confirmation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_cake_24"
+        android:onClick="check"/>
+
+
+</LinearLayout>
