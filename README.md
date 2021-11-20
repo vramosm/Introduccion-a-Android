@@ -7,4 +7,6 @@ Al principio del formulario debe haber un texto con el nombre del concurso y una
 Después el usuario deberá rellenar los siguientes datos: Nombre, apellido, edad, sexo, si a participado en otro concurso antes o no (si marca que sí deberá aparecer otro campo para introducir el nombre del concurso).
 
 Al final del formulario habrá un botón para realizar la inscripción, si todos los campos están rellenos se mostrará un Toast indicando que la inscripción se ha hecho con éxito. Si falta algún campo por rellenar o la persona no es mayor de edad se mostrará un Toast indicando que hay algún error en el formulario.
+
+
 ![screenshot](https://user-images.githubusercontent.com/91912284/142741876-61fd230e-a610-41b7-b5d5-50a747fb2b38.png)
